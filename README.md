@@ -1,4 +1,4 @@
-# Pygame_AI
+# NeuralDrive
 
 The project simulates autonomous cars navigating a maze-like environment using neural networks trained using a genetic algorithm. The cars are represented by sprites with radars, and can move forward or backward. The simulation environment is rectangular with green obstacles, and collisions are removed. The project showcases how neural networks and genetic algorithms can be used to train autonomous vehicles.
 
