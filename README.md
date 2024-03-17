@@ -7,7 +7,7 @@ The project simulates autonomous cars navigating a maze-like environment using n
 - [About](#about)
 - [Features](#features)
 - [Imports](#Imports)
-- [Rating: 7/10](#Rating)
+- [Rating: 5/10](#Rating)
 
 # About
 
@@ -23,4 +23,8 @@ pygame, os, math, sys, neat, random
 
 # Rating
 
-The concept of simulating autonomous cars in a maze-like environment is intriguing and relevant to artificial intelligence and robotics research. The NEAT framework for training neural networks adds complexity and realism to the simulation. Visual representation of cars and obstacles provides an intuitive understanding. However, the simulation lacks interactivity, limited complexity, and dependence on external files. Adding more complex obstacles or dynamic elements could enhance the challenge and realism. The project also relies on external files for configuration and image loading, making it less portable and harder to modify for users unfamiliar with the file structure.
+For its functionality, integration of Pygame, and NEAT implementation. It implements a simulation of cars navigating through an environment using a simple neural network and genetic algorithm. However, there are areas for improvement, such as code organization, variable naming, and error handling.
+The code lacks proper organization and separation of concerns, which could be improved by breaking it down into smaller, more manageable functions and classes. Variable names should be clearer and more descriptive, and magic numbers should be replaced with named constants or variables with descriptive names.
+Error handling mechanisms should be added for file operations, Pygame initialization, and other critical sections to make the code more robust and resilient to unexpected issues. Additional comments and documentation could be beneficial for complex sections or algorithms like NEAT.
+Optimization is needed, especially in the rendering loop, to ensure smooth performance, especially as the number of cars and complexity of the environment increase. The user interface could be improved to provide better feedback and provide configurable options for file paths.
+By addressing these areas, the code can be enhanced in readability, maintainability, and performance.
